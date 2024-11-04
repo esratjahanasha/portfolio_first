@@ -18,6 +18,17 @@
     font-weight: 700;
 
 }
+.section-title{
+    color:#181818;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.section-description{
+    color:#757575;
+    font-size: 18px;
+    text-align: center;
+}
 body{
     font-family: "Open Sans", sans-serif;
     
@@ -80,4 +91,11 @@ justify-content: space-between;
 .banner-description{
     margin-bottom: 20px;
     color: #757575;
+}
+/* main starts */
+.about{
+    padding:130px;
+    border-radius: 10px;
+  background-color: #FFF8F3;
+  margin:130px 0;
 }
