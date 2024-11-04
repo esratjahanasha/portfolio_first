@@ -93,9 +93,29 @@ justify-content: space-between;
     color: #757575;
 }
 /* main starts */
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
 .about{
     padding:130px;
     border-radius: 10px;
   background-color: #FFF8F3;
   margin:130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    margin-top: 25px;
+    text-align: center;
+}
+.info-title{
+    font-weight: 400;
+    color:#757575;
+}
+.info-description{
+    font-weight: bold;
+    color:#474747;
 }
