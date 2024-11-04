@@ -119,3 +119,9 @@ main{
     font-weight: bold;
     color:#474747;
 }
+#what-i{
+    padding: 30px 130px;
+}
+.skills-container{
+    display:flex;
+}
