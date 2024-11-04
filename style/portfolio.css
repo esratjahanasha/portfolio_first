@@ -24,6 +24,9 @@ body{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 nav {
   display: flex;
@@ -49,11 +52,32 @@ nav li a{
    color:#474747;
 }
 .banner{
-padding:30px 30px 30px 150px;
+padding:30px 30px 0px 150px;
 display: flex;
 align-items: center;
+justify-content: space-between;
+}
+.banner-content{
+    max-width:500px;
 }
 .profile-pic{
     width:500px;
     
+}
+
+.banner-greeding{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-title{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 85px;
+    font-weight: bold;
+    color:#181818;
+}
+.banner-description{
+    margin-bottom: 20px;
+    color: #757575;
 }
