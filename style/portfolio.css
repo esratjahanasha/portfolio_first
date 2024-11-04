@@ -165,6 +165,7 @@ main{
 }
 footer{
     display:flex;
+    gap:100px;
     background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px ;
@@ -172,4 +173,15 @@ footer{
 .section-title{
     font-size: 35px;
 }
-
+.footer-column{
+    width:50%;
+}
+.contact input[type=text],.contact input[type=email],textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding:18px 35px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    width:100%;
+}
